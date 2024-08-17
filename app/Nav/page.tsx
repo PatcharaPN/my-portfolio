@@ -10,10 +10,6 @@ const Nav = () => {
 
       <div className="flex gap-10 items-center">
         <Icon className="text-white text-[40px]" icon="fa6-brands:github" />
-        <button className="border-2 border-[#667EEA] py-3 px-7 rounded-[50px] text-[#667EEA] flex items-center gap-2 transition-all hover:bg-[#447ECE] hover:text-white">
-          <Icon icon="carbon:download" />
-          Get CV
-        </button>
       </div>
     </div>
   );

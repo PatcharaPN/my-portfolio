@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: var(--font-inter);
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 260deg;
+  }
 }
 @keyframes carousel {
   0% {
@@ -14,6 +19,36 @@ body {
   }
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 .animate-carousel {
   animation: carousel 20s linear infinite;
+}
+
+.bg-gradient-angle {
+  background: linear-gradient(var(--gradient-angle), #ff7e5f, #feb47b);
+}
+
+@layer utilities {
+  .card-wrapper {
+    @apply relative bg-gradient-to-b from-slate-700 to-slate-800 overflow-hidden;
+  }
+  .card-wrapper::before {
+    background: conic-gradient(#47c5fb 0deg, #57ffe1 0deg, transparent 80deg);
+
+    @apply absolute h-[150%] w-[150%] left-[-25%] top-[-25%] content-[''] animate-border-spin;
+  }
+
+  .card-content {
+    @apply absolute w-[99%] h-[99%] top-[1px] left-[1px] bg-gradient-to-b from-slate-800 to-slate-900 rounded-2xl;
+  }
 }

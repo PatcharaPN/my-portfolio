@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@iconify/react": "^5.0.2",
+    "axios": "^1.7.4",
+    "framer-motion": "latest",
     "iconify": "^1.4.0",
+    "mongoose": "^8.5.3",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {
     "typescript": "^5",
