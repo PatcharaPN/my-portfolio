@@ -18,7 +18,7 @@ export async function GET() {
     { id: 6, name: "CSS 3", icon: "devicon:css3" },
     { id: 7, name: "SASS", icon: "vscode-icons:file-type-scss" },
     { id: 8, name: "Tailwind", icon: "devicon:tailwindcss" },
-    { id: 8, name: "Framer-motion", icon: "teenyicons:framer-solid" },
+    { id: 8, name: "Framer", icon: "teenyicons:framer-solid" },
   ];
   //
   return NextResponse.json(frontend);
