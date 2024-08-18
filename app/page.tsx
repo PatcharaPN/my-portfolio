@@ -13,7 +13,7 @@ export default function Home() {
   });
   return (
     <div>
-      <div className="relative h-[80dvh] md:h-screen  bg-[#090A15] flex items-center justify-center md:overflow-hidden z-0">
+      <div className="relative h-[80dvh] mt-44 md:h-screen  bg-[#090A15] flex items-center justify-center md:overflow-hidden z-0">
         {/* วงกลมเบลอที่หนึ่ง */}
         {/*        <div
           className="absolute w-full h-full -top-50 -left-50 "
