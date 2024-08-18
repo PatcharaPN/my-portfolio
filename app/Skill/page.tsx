@@ -58,7 +58,7 @@ const SkillPage = () => {
   }, [fetchlanguage]);
   //programming
   return (
-    <div className="md:h-screen w-auto">
+    <div className="h-[50vh] md:h-screen w-auto">
       <div className="text-white text-[30px]">
         <h2 className="text-white text-center md:text-start md:text-[2rem] md:px-72">
           Skills
