@@ -13,9 +13,9 @@ const Nav = () => {
     <div className="fixed md:bg-transparent h-[4rem] top-0 z-[9999] flex justify-between w-full px-8 py-10 md:px-32 md:py-10 items-center  bg-[#17192f9c] backdrop-blur-2xl">
       {/* เมนูหลัก */}
       <ul className="flex gap-5 items-center md:gap-10">
-        <li className="text-white text-xl md:text-base">Projects</li>
-        <li className="text-white text-xl md:text-base">Skills</li>
-        <li className="text-white text-xl md:text-base">Contact</li>
+        <li className="text-white text-sm md:text-base">Projects</li>
+        <li className="text-white text-sm md:text-base">Skills</li>
+        <li className="text-white text-sm md:text-base">Contact</li>
       </ul>
 
       {/* ไอคอนและลิงก์ */}
