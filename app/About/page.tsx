@@ -52,7 +52,7 @@ const About: React.FC = () => {
         }`}
       >
         <h1 className="text-white text-[30px] mb-10">About</h1>
-        <p className="text-white text-center w-[70%] mb-40">
+        <p className="text-white border-[1px] p-10 rounded-xl border-indigo-500 md:border-none text-center text-[0.8rem]  w-[80%] md:text-[1rem] md:text-center  md:w-[70%] md:mb-40">
           “Since the beginning, I’ve graduated from Bangkok University with a
           degree in Computer & Robotic Engineering in 2024. My educational
           journey has equipped me with a strong foundation in both theoretical
@@ -68,36 +68,44 @@ const About: React.FC = () => {
         </p>
       </div>
       <div className={`  `}>
-        <h2 className="text-white text-[30px] px-72">Education</h2>
+        <h2 className="text-white text-[2rem] mt-10 md:mt-0 text-center md:text-start md:text-[2rem] md:px-72">
+          Education
+        </h2>
         <div
           ref={educationRef}
-          className={`ease-in-out opacity-0 transition-transform duration-[2000ms] grid grid-cols-1 py-20 px-48 ${
+          className={`ease-in-out opacity-0 transition-transform duration-[2000ms] md:grid md:grid-cols-1 md:py-20 md:px-48 ${
             isEducationVisible ? "translate-x-0 opacity-100" : "-translate-x-10"
           }`}
         >
-          <div className="grid grid-cols-2">
+          <div className="flex flex-col md:grid md:grid-cols-2 justify-center p-10 md:p-0 rounded-xl m-5 md:m-0 items-center border-[1px] border-indigo-500 md:border-none">
             <div className="flex justify-center">
               <img
-                className="bg-cover rounded-full w-[300px] h-[300px]"
+                className="bg-cover rounded-full w-[10rem] h-[10rem] md:w-[300px] md:h-[300px]"
                 src="/bg.webp"
                 alt=""
               />
             </div>
-            <div className="grid grid-cols-[0.09fr,1fr]">
+            <div className="flex md:grid md:grid-cols-[0.09fr,1fr]">
               <div>
-                <div className="flex flex-col text-[#48A6E4] items-center gap-4">
+                <div className="hidden md:flex flex-col text-[#48A6E4] items-center gap-4">
                   <Icon width={30} icon="icon-park-outline:dot" />
-                  <div className="w-1 h-80 bg-[#48A6E4] rounded-3xl"></div>
+                  <div className="hidden md:flex md:w-1 md:h-80 md:bg-[#48A6E4] md:rounded-3xl"></div>
                 </div>
               </div>
-              <div className="grid grid-rows-[1fr,0.3fr] items-center">
-                <div className="text-white gap-3 flex flex-col text-[25px] pl-5 font-thin">
-                  <p className="text-[#47C5FB]">Bangkok University</p>
-                  <p>Bachelor of Engineering</p>
-                  <p>Computer and Robotics Engineering</p>
+              <div className="md:grid md:grid-rows-[1fr,0.3fr] items-center">
+                <div className="text-white gap-1 md:gap-3 flex flex-col p-10 text-[25px] md:pl-5 font-thin">
+                  <p className="text-[#47C5FB] text-[1.2rem] md:text-[1.5rem]">
+                    Bangkok University
+                  </p>
+                  <p className="text-[1.2rem] md:text-[1.5rem]">
+                    Bachelor of Engineering
+                  </p>
+                  <p className="text-[1.2rem] md:text-[1.5rem]">
+                    Computer and Robotics Engineering
+                  </p>
                 </div>
-                <div className="flex justify-end items-center">
-                  <p className="text-[#47C5FB] text-[20px] px-20 font-thin">
+                <div className="flex justify-start md:justify-end items-start md:items-center">
+                  <p className="text-[#47C5FB] text-[20px] md:px-20 font-thin">
                     2019-2024
                   </p>
                 </div>
