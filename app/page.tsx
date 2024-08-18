@@ -13,7 +13,7 @@ export default function Home() {
   });
   return (
     <div>
-      <div className="relative h-[80dvh] mt-44 md:h-screen  bg-[#090A15] flex items-center justify-center md:overflow-hidden z-0">
+      <div className="relative h-[80dvh] mt-32 md:h-screen  bg-[#090A15] flex items-center justify-center md:overflow-hidden z-0">
         {/* วงกลมเบลอที่หนึ่ง */}
         {/*        <div
           className="absolute w-full h-full -top-50 -left-50 "
@@ -41,7 +41,7 @@ export default function Home() {
               </p>{" "}
             </div>
           </div>{" "}
-          <div className="flex flex-col mdLjustify-center items-center mt-10 gap-5 md:flex md:items-center md:mt-10 md:gap-6">
+          <div className="flex flex-col w-fit md:ml-32 md:flex-row mdLjustify-center items-center mt-10 gap-5 md:flex md:items-center md:mt-10 md:gap-6">
             <span className="flex  items-center font-bold bg-gradient-to-r from-[#447ECE] via-[#08B1FF] to-indigo-400  w-fit px-5 py-3 md:px-10 md:py-4 rounded-full text-white ">
               Get in touch
             </span>
