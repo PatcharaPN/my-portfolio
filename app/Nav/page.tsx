@@ -46,7 +46,7 @@ const Nav = () => {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -50, opacity: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 20 }}
-          className="absolute h-fit py-10 top-[90%] left-0 z-10 w-full bg-[#17192f9c] backdrop-blur-2xl z-2"
+          className="absolute h-fit py-10 top-[90%] left-0 z-10 w-full"
         >
           <div className="flex flex-col items-center">
             <div className="grid grid-cols-[0.5fr,200px] items-center p-6 w-full hover:bg-slate-500 duration-200 rounded-2xl">
