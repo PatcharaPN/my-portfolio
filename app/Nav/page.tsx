@@ -19,7 +19,7 @@ const Nav = () => {
       </ul>
 
       {/* ไอคอนและลิงก์ */}
-      <div className="hidden md:flex md:gap-4 gap-20 md:items-center">
+      <div className="hidden md:flex md:gap-20 gap-0 md:items-center">
         <Icon
           className="text-white text-[30px] md:text-[2rem]"
           icon="fa6-brands:github"
