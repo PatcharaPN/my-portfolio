@@ -44,7 +44,7 @@ const About: React.FC = () => {
   }, []);
 
   return (
-    <div className="h-[160vh] w-full overflow-y-hidden">
+    <div className="h-fit w-full overflow-y-hidden">
       <div
         ref={aboutRef}
         className={`transition-opacity duration-[1000ms] ease-in-out flex justify-center flex-col items-center mt-20 ${
