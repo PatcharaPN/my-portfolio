@@ -11,7 +11,7 @@
   "dependencies": {
     "@iconify/react": "^5.0.2",
     "axios": "^1.7.4",
-    "framer-motion": "latest",
+    "framer-motion": "^11.3.28",
     "iconify": "^1.4.0",
     "mongoose": "^8.5.3",
     "next": "14.2.5",

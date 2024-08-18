@@ -13,7 +13,7 @@ export default function Home() {
   });
   return (
     <div>
-      <div className="relative h-[80dvh] md:h-screen  bg-[#090A15] flex items-center justify-center md:overflow-hidden ">
+      <div className="relative h-[80dvh] md:h-screen  bg-[#090A15] flex items-center justify-center md:overflow-hidden z-0">
         {/* วงกลมเบลอที่หนึ่ง */}
         {/*        <div
           className="absolute w-full h-full -top-50 -left-50 "
@@ -24,8 +24,6 @@ export default function Home() {
           }}
         ></div>*/}
 
-        <div className="absolute z-30 -left-12 w-24 h-[900px]  blur-0 md:blur-xl md:bg-[#090A15]"></div>
-        <div className="absolute z-30 -right-12 w-24 h-[900px]  blur-0 md:blur-xl md:bg-[#090A15]"></div>
         <div className="w-full md:h-3/4 grid grid-rows-1 grid-cols-1 items-center ">
           <div className="flex h-full mb-5 w-full justify-center items-start md:justify-start md:items-center md:ml-28 ">
             <div className="relative z-10 text-white text-center md:text-start ">
