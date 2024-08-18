@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div className="static bg-[#17192f9c] md:bg-transparent h-[4rem] top-0 z-1000 flex justify-between w-full px-8 py-10 md:px-32 md:py-10 items-center">
       {/* เมนูหลัก */}
-      <ul className="flex gap-5 items-center md:gap-10 ">
+      <ul className="flex gap-5 items-center md:gap-10">
         <li className="text-white text-xl md:text-base">Projects</li>
         <li className="text-white text-xl md:text-base">Skills</li>
         <li className="text-white text-xl md:text-base">Contact</li>
@@ -42,11 +42,11 @@ const Nav = () => {
       </div>
       {Modal ? (
         <motion.div
-          initial={{ y: -10, opacity: 0 }}
+          initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: -50, opacity: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 20 }}
-          className="absolute h-fit py-10 top-[7%] left-0 z-10 w-full bg-[#17192f9c] backdrop-blur-2xl z-2"
+          className="absolute h-fit py-10 top-[8%] left-0 z-10 w-full bg-[#17192f9c] backdrop-blur-2xl z-2"
         >
           <div className="flex flex-col items-center">
             <div className="grid grid-cols-[0.5fr,200px] items-center p-6 w-full hover:bg-slate-500 duration-200 rounded-2xl">
