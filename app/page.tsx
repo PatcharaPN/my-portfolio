@@ -35,7 +35,7 @@ export default function Home() {
               </p>
               <p className="text-[1.3rem] md:text-[3rem] flex items-center justify-center ">
                 I'm looking for career
-                <span className="ml-3 bg-gradient-to-r from-[#447ECE] via-[#08B1FF] to-indigo-400 inline-block text-transparent bg-clip-text">
+                <span className="ml-2 bg-gradient-to-r from-[#447ECE] via-[#08B1FF] to-indigo-400 inline-block text-transparent bg-clip-text">
                   {text}
                 </span>
               </p>{" "}
