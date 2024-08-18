@@ -3,7 +3,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="static top-0 z-10 flex justify-between w-full px-8 py-6 md:px-32 md:py-10">
+    <div className="static h-[4rem] top-0 z-10 flex justify-between w-full px-8 py-6 md:px-32 md:py-10">
       {/* เมนูหลัก */}
       <ul className="flex gap-5 items-center md:gap-10 ">
         <li className="text-white text-xl md:text-base">Projects</li>
